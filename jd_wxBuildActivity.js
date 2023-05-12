@@ -1,3 +1,5 @@
+require("global-agent/bootstrap");
+global.GLOBAL_AGENT.HTTP_PROXY="http://172.17.0.1:8899";
 /*
 活动名称：盖楼有礼 · 超级无线
 活动链接：https://lzkj-isv.isvjcloud.com/wxBuildActivity/activity?activityId=<活动id>
