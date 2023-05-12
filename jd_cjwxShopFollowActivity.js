@@ -1,3 +1,5 @@
+require("global-agent/bootstrap");
+global.GLOBAL_AGENT.HTTP_PROXY="http://172.17.0.1:8899";
 /*
 活动名称：CJ关注店铺有礼
 活动链接：https://cjhydz-isv.isvjcloud.com/wxShopFollowActivity/activity?activityId=xxx
