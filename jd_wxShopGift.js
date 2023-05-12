@@ -1,3 +1,5 @@
+require("global-agent/bootstrap");
+global.GLOBAL_AGENT.HTTP_PROXY="http://172.17.0.1:8899";
 /*
 活动名称：店铺礼包特效 · 超级无线
 活动链接：https://lzkj-isv.isvjcloud.com/wxShopGift/activity?activityId=<活动id>
