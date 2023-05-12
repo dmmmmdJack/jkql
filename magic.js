@@ -4,7 +4,7 @@ let mode = __dirname.includes("magic");
 let testMode = process.env.M_TEST_MODE?.includes('on') ? true : mode
 let wxProxyUrl = process.env.M_WX_PROXY_URL || "";
 //智能切换?1:2 1：先本地ip，493不可用再切换代理, 2:直接使用代理访问
-let wxProxySmart = parseInt(process.env.M_WX_PROXY_SMART || "1");
+let wxProxySmart = parseInt(process.env.M_WX_PROXY_SMART || "2");
 // 默认2分钟获取一个新ip
 let wxProxyInterval = parseInt(process.env.M_WX_PROXY_INTERVAL || "2");
 let wxHandlerMode = process.env.M_WX_HANDLER_MODE || "break";
