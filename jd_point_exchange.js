@@ -1,3 +1,5 @@
+require("global-agent/bootstrap");
+global.GLOBAL_AGENT.HTTP_PROXY="http://172.17.0.1:8899";
 /*
 1 1 1 1 * jd_point_exchange.js
 变量 POINT_EXCHANGE_URL="https://cjhy-isv.isvjcloud.com/mc/wxPointShopView/pointExgBeans?venderId=xxxxxxxx"
