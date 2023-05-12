@@ -1,3 +1,5 @@
+require("global-agent/bootstrap");
+global.GLOBAL_AGENT.HTTP_PROXY="http://172.17.0.1:8899";
 /*
 #电脑配件ID任务jd_computer,自行加入以下环境变量，多个ID用@连接
 export computer_activityIdList="17"  
