@@ -1,3 +1,5 @@
+require("global-agent/bootstrap");
+global.GLOBAL_AGENT.HTTP_PROXY="http://172.17.0.1:8899";
 /*
 活动名称：完善信息有礼 · 超级无线
 活动地址：https://cjhy-isv.isvjcloud.com/wx/completeInfoActivity/view/activity?activityId=<活动id>&venderId=<店铺id>
