@@ -1,3 +1,5 @@
+require("global-agent/bootstrap");
+global.GLOBAL_AGENT.HTTP_PROXY="http://172.17.0.1:8899";
 /*
 活动名称：LZ加购有礼
 活动链接：https://lzkj-isv.isvjcloud.com/wxCollectionActivity/activity2/b252840a3f9a426480f0e0d7df9b3942?activityId=<活动id>
