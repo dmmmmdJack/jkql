@@ -1,3 +1,5 @@
+require("global-agent/bootstrap");
+global.GLOBAL_AGENT.HTTP_PROXY="http://172.17.0.1:8899";
 /*
 活动名称：店铺签到 · 超级无线
 环境变量：多活动id用逗号分开，不同环境变量对应不同链接类型，注意区分
