@@ -1,3 +1,5 @@
+require("global-agent/bootstrap");
+global.GLOBAL_AGENT.HTTP_PROXY="http://172.17.0.1:8899";
 /*
 活动名称：关注店铺有礼（超级无线欧莱雅）
 活动链接：https://lzkj-isv.isvjcloud.com/prod/cc/interactsaas/index?activityType=10069&templateId=<模板id>&activityId=<活动id>&nodeId=<nodeid>&prd=cjwx
