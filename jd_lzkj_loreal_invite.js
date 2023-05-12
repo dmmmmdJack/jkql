@@ -1,3 +1,5 @@
+require("global-agent/bootstrap");
+global.GLOBAL_AGENT.HTTP_PROXY="http://172.17.0.1:8899";
 /**
 活动名称：邀请入会有礼（lzkj_loreal）
 环境变量：jd_lzkj_loreal_invite_url // 活动链接
