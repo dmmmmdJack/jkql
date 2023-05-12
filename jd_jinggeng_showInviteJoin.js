@@ -1,3 +1,5 @@
+require("global-agent/bootstrap");
+global.GLOBAL_AGENT.HTTP_PROXY="http://172.17.0.1:8899";
 /*
 活动名称：邀请入会赢好礼 · 京耕
 活动链接：https://jinggeng-isv.isvjcloud.com/ql/front/showInviteJoin?id=<活动id>&user_id=<店铺id>
