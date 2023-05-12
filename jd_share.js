@@ -1,3 +1,5 @@
+require("global-agent/bootstrap");
+global.GLOBAL_AGENT.HTTP_PROXY="http://172.17.0.1:8899";
 /* 
 活动地址为：https://lzkjdz-isv.isvjcloud.com/wxShareActivity/activity/6432842?activityId=xxxxx
 一共有2个变量
