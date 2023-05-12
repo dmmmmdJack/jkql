@@ -1,3 +1,5 @@
+require("global-agent/bootstrap");
+global.GLOBAL_AGENT.HTTP_PROXY="http://172.17.0.1:8899";
 /*
 知识超人 · 超级无线/超级会员
 活动链接：https://cjhy-isv.isvjcloud.com/wxKnowledgeActivity/activity/activity?activityId=<活动id>
