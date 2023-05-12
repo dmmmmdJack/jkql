@@ -1,3 +1,5 @@
+require("global-agent/bootstrap");
+global.GLOBAL_AGENT.HTTP_PROXY="http://172.17.0.1:8899";
 /*
 lzkj加购物车抽奖
 https://lzkj-isv.isvjcloud.com/wxCollectionActivity/activity2/8530275?activityId=fe2e64bcc0f74455bbb63191bfd36cdb
