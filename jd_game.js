@@ -1,3 +1,5 @@
+require("global-agent/bootstrap");
+global.GLOBAL_AGENT.HTTP_PROXY="http://172.17.0.1:8899";
 /*
 LZ店铺通用游戏任务
 活动ID环境变量 WXGAME_ACT_ID
