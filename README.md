@@ -1,6 +1,7 @@
+# 阿西吧の监控库
 # 前言
 
-此项目作为个人日常监控使用，由于只在自己的青龙里使用，所以脚本不是完善，若有不足的地方请提出。
+此项目作为个人日常线报监控专用,纯收集,无审查,由于只在自己的青龙里使用，所以脚本不是完善，若有不足的地方请提出。
 
 # 部署方法
 
@@ -35,7 +36,8 @@ cd /root/proxypool
 vim proxy.yml
 ```
 键盘按下i进入编辑模式,小白填写代理池api地址即可,写入最简配置(务必看注释):
-
+##  [星空代理 (最低8R/1W个IP,签到星币免费兑IP)](http://www.xkdaili.com/?ic=6a9sesfq)
+##  [携趣网络 (最低10R/2W个IP,每日免费送0.1W测试IP)](https://www.xiequ.cn/)
 ```shell
 changeRequest:
   - hostRegex: (.+\.jd\.com)|(.+\.isvjd\.com)|(.+\.isvjcloud\.com) #正则表达式
@@ -64,10 +66,8 @@ docker logs -f auto-proxy-pool
 ```
 如果日志输出正常则表明代理池运行成功，每次修改代理池配置文件都要重启代理池才会生效哦！
 
-# 阿西吧の监控库
-# 请遵守GPL开源协议，切勿滥用盈利！
 
-## 线报监控专用，纯收集，无审查
+
 ## 已在每个脚本开头添加auto-proxy-pool代理池调用代码
 ## 部署auto-proxy-pool代理池项目[传送门](https://blog.qninq.cn/archives/proxypool.html)
 ## 如有问题请联系我 BY [Axiba](https://t.me/lyc_axiba)
