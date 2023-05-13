@@ -78,7 +78,7 @@ global.GLOBAL_AGENT.HTTP_PROXY="http://172.17.0.1:8899";
 ```shell
 ql repo https://github.com/LYC-axiba/JD-Monitoring-library.git "jd_" "" "^jd[^_]|USER|function|sendNotify|magic|h5sts"
 ```
-以下是我整理这个仓库的配置文件，顺序从上到下对应着此库的脚本，M脚本我设置跑的每个容器前35个CK,除了M脚本外如果不想跑35个号，可以复制以下内容，把35替换成你执行的数量
+以下是我整理这个仓库的配置文件，顺序从上到下对应着此库的脚本，M脚本我设置跑的每个容器前35个CK,除了M脚本外如果不想跑35个号，可以复制以下内容，把35替换成你执行的数量,把pin值改成你自己的
 ```shell
 #入会开卡领取礼包   jd_OpenCard_Force.js
 export VENDER_ID=""
