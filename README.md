@@ -32,6 +32,9 @@ mkdir -p /root/proxypool
 # 进入文件夹
 cd /root/proxypool
 
+# 创建容器
+docker run -itd -v "$(pwd)":/run/data -p 8899:8080 --restart=always --name=auto-proxy-pool mzzsfy/auto-proxy-pool
+
 # 修改配置文件
 vim proxy.yml
 ```
@@ -66,9 +69,9 @@ docker logs -f auto-proxy-pool
 ```
 如果日志输出正常则表明代理池运行成功，每次修改代理池配置文件都要重启代理池才会生效哦！
 
-
-
 ## 已在每个脚本开头添加auto-proxy-pool代理池调用代码
-## 部署auto-proxy-pool代理池项目[传送门](https://blog.qninq.cn/archives/proxypool.html)
 ## 如有问题请联系我 BY [Axiba](https://t.me/lyc_axiba)
+# 拉库
+```shell
 ql repo https://github.com/LYC-axiba/JD-Monitoring-library.git "jd_" "" "^jd[^_]|USER|function|sendNotify|magic|h5sts"
+```
